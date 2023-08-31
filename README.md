@@ -1,3 +1,5 @@
+Project for OpenSoft, IIT Kharagpur, A software development competition.
+
 ## Steps to Start Server 
 
 Start Elasticsearch from /bin path
