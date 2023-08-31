@@ -1,0 +1,77 @@
+{
+	"variables": [],
+	"info": {
+		"name": "AZ Opensoft",
+		"_postman_id": "1200e710-d294-5a93-5d42-dd7e189edcb0",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search",
+			"request": {
+				"url": {
+					"raw": "http://206.189.138.208:5000/search?q=murder",
+					"protocol": "http",
+					"host": [
+						"206",
+						"189",
+						"138",
+						"208"
+					],
+					"port": "5000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "murder",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Search based on certain parameters"
+			},
+			"response": []
+		},
+		{
+			"name": "Get file",
+			"request": {
+				"url": {
+					"raw": "http://206.189.138.208:5000/file?caseid=1953_A_1",
+					"protocol": "http",
+					"host": [
+						"206",
+						"189",
+						"138",
+						"208"
+					],
+					"port": "5000",
+					"path": [
+						"file"
+					],
+					"query": [
+						{
+							"key": "caseid",
+							"value": "1953_A_1",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Retrieve a specific file only"
+			},
+			"response": []
+		}
+	]
+}
